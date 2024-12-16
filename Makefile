@@ -2,7 +2,7 @@ CC=gcc
 CFLAGS=-I ./ -Wall -Werror
 LDFLAGS=-static
 OBJS=main.o ssd1306.o linux_i2c.o
-BIN=ssd1306_bin
+BIN=oled_bin
 
 default: $(BIN)
 .PHONY: default clean
